@@ -1,0 +1,43 @@
+.post {
+    padding: 15px;
+    display: grid;
+    height: 330px;
+    grid-template: 30px 230px 40px / 1fr;
+    background-color: white;
+    border: 1px solid darkslateblue;
+    border-radius: 15px;
+
+}
+
+.title {
+    height: 18px;
+    overflow: hidden;
+    text-wrap: normal;
+    text-overflow: ellipsis;
+
+    strong {
+
+        text-align: center;
+    }
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+}
+
+.content__info {
+    width: auto;
+    height: 865px;
+    overflow: hidden;
+}
+
+.text::-webkit-scrollbar {
+    width: 0;
+}
+
+.buttons {
+    margin: auto 0;
+}
+

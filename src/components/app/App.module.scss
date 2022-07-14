@@ -1,0 +1,10 @@
+.app {
+  margin: 25px;
+  display: grid;
+  text-align: center;
+  grid-template: minmax(auto, 1000px) 100px / 1fr;
+}
+
+.buttons {
+  text-align: right;
+}
